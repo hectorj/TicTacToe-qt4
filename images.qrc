@@ -1,0 +1,6 @@
+ <!DOCTYPE RCC><RCC version="1.0">
+ <qresource>
+     <file>croix.bmp</file>
+     <file>rond.bmp</file>
+ </qresource>
+ </RCC>

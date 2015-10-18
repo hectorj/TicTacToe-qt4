@@ -1,0 +1,123 @@
+<ui version="4.0" >
+ <class>fen</class>
+ <widget class="QWidget" name="fen" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>279</width>
+    <height>128</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Tic Tac Toe</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" >
+   <item row="0" column="0" >
+    <widget class="QCheckBox" name="J1H" >
+     <property name="text" >
+      <string>Joueur 1</string>
+     </property>
+     <property name="icon" >
+      <iconset resource="images.qrc" >
+       <normaloff>:/croix.bmp</normaloff>:/croix.bmp</iconset>
+     </property>
+     <property name="checked" >
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" >
+    <widget class="QCheckBox" name="J2H" >
+     <property name="text" >
+      <string>Joueur 2</string>
+     </property>
+     <property name="icon" >
+      <iconset resource="images.qrc" >
+       <normaloff>:/rond.bmp</normaloff>:/rond.bmp</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2" >
+    <widget class="QPushButton" name="bouton_debut" >
+     <property name="text" >
+      <string>Go !</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" >
+    <widget class="QPushButton" name="pushButton" >
+     <property name="shortcut" >
+      <string>1</string>
+     </property>
+     <property name="checkable" >
+      <bool>false</bool>
+     </property>
+     <property name="checked" >
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" >
+    <widget class="QPushButton" name="pushButton_2" >
+     <property name="shortcut" >
+      <string>2</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2" >
+    <widget class="QPushButton" name="pushButton_3" >
+     <property name="shortcut" >
+      <string>3</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" >
+    <widget class="QPushButton" name="pushButton_4" >
+     <property name="shortcut" >
+      <string>4</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1" >
+    <widget class="QPushButton" name="pushButton_5" >
+     <property name="shortcut" >
+      <string>5</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2" >
+    <widget class="QPushButton" name="pushButton_6" >
+     <property name="shortcut" >
+      <string>6</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" >
+    <widget class="QPushButton" name="pushButton_7" >
+     <property name="shortcut" >
+      <string>7</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1" >
+    <widget class="QPushButton" name="pushButton_8" >
+     <property name="shortcut" >
+      <string>8</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2" >
+    <widget class="QPushButton" name="pushButton_9" >
+     <property name="shortcut" >
+      <string>9</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="images.qrc" />
+ </resources>
+ <connections/>
+</ui>
